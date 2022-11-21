@@ -1,2 +1,9 @@
 # Mass-IP-Range
-Mass-IP-Range By Mr.Mad
+- Usage - 
+```
+python main.py
+```
+
+Created By Mrmad
+
+This Tool for ranging IP
