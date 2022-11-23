@@ -18,11 +18,14 @@ else:
 
 
 def mass_range(input):
-    ip = input.split(".")
-    with open("Results/ip_range.txt", "a") as rnge:
-        for x in range(0, 256):
-            rnge.write(f"{ip[0]}.{ip[1]}.{ip[2]}.{x}")
-            rnge.writelines("\n")
+    try:
+        ip = input.split(".")
+        with open("Results/ip_range.txt", "a") as rnge:
+            for x in range(0, 256):
+                rnge.write(f"{ip[0]}.{ip[1]}.{ip[2]}.{x}")
+                rnge.writelines("\n")
+    except:
+        pass
 
 
 def main():
